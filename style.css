@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+body{
+ font-family: 'Nunito Sans', sans-serif;
+}
+ul > li{
+    justify-content: space-between;
+    margin-left: 45px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+.hero{
+    color: white;
+    position: absolute; 
+    bottom: 5%;
+    left: 40%;
+}
+
+.baniere{
+   min-height: 420px;
+   background-image: url("baniere.jpg");
+   background-position: center;
+   background-size: cover;
+   filter: saturate(0) brightness(50%);
+   box-shadow: 2%;    
+}
+.button{
+    border: none;
+}
+.simplonCorp{
+    position: relative;
+    margin-left: 4%;
+}
+.simplonProd{
+    position: relative;
+    right: 3%;
+}
+.bakfooter{
+    background-image: url("imgbak.png");
+    width: 100%;
+    background-size: cover;  
+}
+.envoyer{
+    border: none;
+    position: relative;
+    bottom: 38px;
+    left: 50px;
+    height: 38px;
+
+    
+}
+.form-control{
+    width: 180px;
+    
+}
